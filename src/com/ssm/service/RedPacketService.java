@@ -1,6 +1,6 @@
-package com.ssm.chapter22.service;
+package com.ssm.service;
 
-import com.ssm.chapter22.pojo.RedPacket;
+import com.ssm.pojo.RedPacket;
 
 public interface RedPacketService {
 	

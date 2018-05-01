@@ -1,7 +1,8 @@
-package com.ssm.chapter22.dao;
+package com.ssm.dao;
 
 import org.springframework.stereotype.Repository;
-import com.ssm.chapter22.pojo.UserRedPacket;
+
+import com.ssm.pojo.UserRedPacket;
 
 @Repository
 public interface UserRedPacketDao {

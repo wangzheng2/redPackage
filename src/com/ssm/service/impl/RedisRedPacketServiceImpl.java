@@ -1,4 +1,4 @@
-package com.ssm.chapter22.service.impl;
+package com.ssm.service.impl;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -17,8 +17,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
-import com.ssm.chapter22.pojo.UserRedPacket;
-import com.ssm.chapter22.service.RedisRedPacketService;
+import com.ssm.pojo.UserRedPacket;
+import com.ssm.service.RedisRedPacketService;
 
 @Service
 public class RedisRedPacketServiceImpl implements RedisRedPacketService {

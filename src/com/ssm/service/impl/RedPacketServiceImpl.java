@@ -1,4 +1,4 @@
-package com.ssm.chapter22.service.impl;
+package com.ssm.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,9 +6,9 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ssm.chapter22.dao.RedPacketDao;
-import com.ssm.chapter22.pojo.RedPacket;
-import com.ssm.chapter22.service.RedPacketService;
+import com.ssm.dao.RedPacketDao;
+import com.ssm.pojo.RedPacket;
+import com.ssm.service.RedPacketService;
 
 @Service
 public class RedPacketServiceImpl implements RedPacketService {

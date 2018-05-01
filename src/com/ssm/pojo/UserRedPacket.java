@@ -1,4 +1,4 @@
-package com.ssm.chapter22.pojo;
+package com.ssm.pojo;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

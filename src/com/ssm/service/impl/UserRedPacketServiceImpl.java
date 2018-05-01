@@ -1,4 +1,4 @@
-package com.ssm.chapter22.service.impl;
+package com.ssm.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -7,12 +7,12 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ssm.chapter22.dao.RedPacketDao;
-import com.ssm.chapter22.dao.UserRedPacketDao;
-import com.ssm.chapter22.pojo.RedPacket;
-import com.ssm.chapter22.pojo.UserRedPacket;
-import com.ssm.chapter22.service.RedisRedPacketService;
-import com.ssm.chapter22.service.UserRedPacketService;
+import com.ssm.dao.RedPacketDao;
+import com.ssm.dao.UserRedPacketDao;
+import com.ssm.pojo.RedPacket;
+import com.ssm.pojo.UserRedPacket;
+import com.ssm.service.RedisRedPacketService;
+import com.ssm.service.UserRedPacketService;
 
 import redis.clients.jedis.Jedis;
 

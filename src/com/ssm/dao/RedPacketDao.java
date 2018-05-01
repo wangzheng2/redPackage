@@ -1,9 +1,9 @@
-package com.ssm.chapter22.dao;
+package com.ssm.dao;
 
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-import com.ssm.chapter22.pojo.RedPacket;
+import com.ssm.pojo.RedPacket;
 @Repository
 public interface RedPacketDao {
 	

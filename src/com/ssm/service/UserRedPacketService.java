@@ -1,4 +1,4 @@
-package com.ssm.chapter22.service;
+package com.ssm.service;
 
 public interface UserRedPacketService {
 	

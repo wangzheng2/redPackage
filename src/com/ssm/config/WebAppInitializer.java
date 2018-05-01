@@ -1,4 +1,4 @@
-package com.ssm.chapter22.config;
+package com.ssm.config;
 
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletRegistration.Dynamic;
